@@ -1,6 +1,10 @@
 def order(m,n,k):
 	count=0
 	answer=1
+	if m>n:
+		m=m+n
+		n=m-n
+		m=m-n
 	while 1:
 		for i in range(1,m+1):
 			if answer % i ==0 and answer / i < n+1:
