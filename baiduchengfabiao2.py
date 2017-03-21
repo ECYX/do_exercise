@@ -10,7 +10,7 @@ def order(m,n,k):
 					return answer
 		answer+=1
 string = raw_input('')
-# string = "2 3 4"
+# string = "2115 384 385536"
 num = string.split(' ')
 m = int(num[0])
 n = int(num[1])
